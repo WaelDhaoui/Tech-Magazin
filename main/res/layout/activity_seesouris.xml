@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.SeeSouris"
+    android:background="@drawable/nude">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_corner"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_margin="30dp"
+        >
+
+        <ImageView
+            android:layout_width="155dp"
+            android:layout_height="131dp"
+            android:src="@drawable/souris" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mouse Clutch GM 11 MSI"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Price: 15DT"
+            android:textStyle="italic"
+            android:textSize="20dp"
+            android:textColor="@color/red"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\n ► 30% Lighter Than Normal Wireless Mice. Designed for competitive FPS gamers, the GM41 Wireless moves with the hand effortlessly with a weight of just 74 grams.
+	\n ► 1ms Ultra-Low Wireless Latency. Built with the latest 2.4G RF wireless technology, latency is reduced to just 1ms resulting in responsiveness almost 10x faster than the typical wireless mouse on the market.
+	\n ► 80hr Battery Life, Quick Charging Time: 10 minutes of charging time can recharge up to 9 hours of battery life. Charge the GM41 Wireless from 0% to 100% in just 90 minutes, for up to 80 hours of usage on a full charge
+	\n ► Ergonomic Symmetrical Design. Stay in control with a form fit for any hand shape with soft, durable rubber side grips.
+"
+            android:textColor="@color/black" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            >
+            <Button
+                android:id="@+id/btngoback"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="go back"
+                android:layout_marginLeft="10dp"/>
+
+            <Button
+                android:id="@+id/buy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="140dp"
+                android:text="buy" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

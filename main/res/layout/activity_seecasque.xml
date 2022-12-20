@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.SeeCasque"
+    android:background="@drawable/nude">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_corner"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_margin="30dp"
+        >
+
+        <ImageView
+            android:layout_width="155dp"
+            android:layout_height="131dp"
+            android:src="@drawable/headset"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DS502 Headset MSI"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Price: 35DT"
+            android:textStyle="italic"
+            android:textSize="20dp"
+            android:textColor="@color/red"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="
+            \n ► Enhanced Virtual 7.1 Surround Sound
+            \n ► Intelligent Vibration System
+            \n ► Smart Audio Controller
+            \n ► Enhanced 40mm High Quality Drivers
+            \n ► Cool LED Light
+            \n ► Light weight and Self-adjusting Headband Design"
+            android:textColor="@color/black" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            >
+            <Button
+                android:id="@+id/btngoback"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="go back"
+                android:layout_marginLeft="10dp"/>
+
+            <Button
+                android:id="@+id/buy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="140dp"
+                android:text="buy" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
